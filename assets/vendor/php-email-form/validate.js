@@ -143,7 +143,7 @@
       }
     }).fail( function(data){
       console.log(data);
-      var error_msg = "Try hard betul nak hantar email!<br>";
+      var error_msg = "Form submission failed!<br>";
       if(data.statusText || data.status) {
         error_msg += 'Status:';
         if(data.statusText) {
